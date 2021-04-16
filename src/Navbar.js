@@ -23,6 +23,10 @@ const content = {
     spanish:{
         search:"Buscar",
         flag:"🇪🇸"
+    },
+    chinese:{
+        search:"搜尋",
+        flag:"🇹🇼"
     }
 } 
 function Navbar (props){

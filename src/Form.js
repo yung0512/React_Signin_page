@@ -33,6 +33,12 @@ const words = {
         signIn:"Registrase",
         password:"Contrasena",
         remember:"Recuerdame"
+    },
+    spanish:{
+        email:"電子信箱",
+        signIn:"登入",
+        password:"密碼",
+        remember:"記住我"
     }
 }
 function Form(props){
@@ -50,6 +56,7 @@ function Form(props){
                     <MenuItem value="english">English</MenuItem>
                     <MenuItem value="french">French</MenuItem>
                     <MenuItem value="spanish">Spanish</MenuItem>
+                    <MenuItem value="chinese">繁體中文</MenuItem>
                 </Select>
                 <form className={classes.form}>
                     <FormControl margin="normal" required fullWidth>
