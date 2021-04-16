@@ -34,7 +34,7 @@ const words = {
         password:"Contrasena",
         remember:"Recuerdame"
     },
-    spanish:{
+    chinese:{
         email:"電子信箱",
         signIn:"登入",
         password:"密碼",
